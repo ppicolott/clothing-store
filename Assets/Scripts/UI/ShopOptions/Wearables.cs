@@ -21,14 +21,36 @@ public class Wearables : MonoBehaviour
 
     public void PurchasedItems()
     {
-        newBody = body.transform.GetChild(0);
-        newHair = hair.transform.GetChild(0);
-        newHead = head.transform.GetChild(0);
-        newTorso = torso.transform.GetChild(0);
-        newHands = hands.transform.GetChild(0);
-        newLegs = legs.transform.GetChild(0);
-        newFeet = feet.transform.GetChild(0);
-
+        // Check if GameObject has items (children) to validate purchase
+        // If there aren't any children, it means clothes were removed
+        if (body.transform.childCount > 0)
+        {
+            newBody = body.transform.GetChild(0);
+        }
+        if (hair.transform.childCount > 0)
+        {
+            newHair = hair.transform.GetChild(0);
+        }
+        if (head.transform.childCount > 0)
+        {
+            newHead = head.transform.GetChild(0);
+        }
+        if (torso.transform.childCount > 0)
+        {
+            newTorso = torso.transform.GetChild(0);
+        }
+        if (hands.transform.childCount > 0)
+        {
+            newHands = hands.transform.GetChild(0);
+        }
+        if (legs.transform.childCount > 0)
+        {
+            newLegs = legs.transform.GetChild(0);
+        }
+        if (feet.transform.childCount > 0)
+        {
+            newFeet = feet.transform.GetChild(0);
+        }
         Outfit.instance.SetOutfit(newBody, newHair, newHead, newTorso, newHands, newLegs, newFeet);
     }
 
@@ -93,29 +115,31 @@ public class Wearables : MonoBehaviour
                     _newClothes = Instantiate(_wearable[i], _wearableTransform.transform);
                     AnimationManager _newAnimationManager = _newClothes.GetComponent<AnimationManager>();
 
+                    AnimationManager _bodyAnimationManager = body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>();
+
                     // Maintaining same direction of previous clothes
-                    if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().frontIdle.activeInHierarchy)
+                    if (_bodyAnimationManager.frontIdle.activeInHierarchy)
                     {
                         _newAnimationManager.frontIdle.gameObject.SetActive(true);
                         _newAnimationManager.rightIdle.gameObject.SetActive(false);
                         _newAnimationManager.leftIdle.gameObject.SetActive(false);
                         _newAnimationManager.backIdle.gameObject.SetActive(false);
                     }
-                    if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().rightIdle.activeInHierarchy)
+                    if (_bodyAnimationManager.rightIdle.activeInHierarchy)
                     {
                         _newAnimationManager.frontIdle.gameObject.SetActive(false);
                         _newAnimationManager.rightIdle.gameObject.SetActive(true);
                         _newAnimationManager.leftIdle.gameObject.SetActive(false);
                         _newAnimationManager.backIdle.gameObject.SetActive(false);
                     }
-                    if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().leftIdle.activeInHierarchy)
+                    if (_bodyAnimationManager.leftIdle.activeInHierarchy)
                     {
                         _newAnimationManager.frontIdle.gameObject.SetActive(false);
                         _newAnimationManager.rightIdle.gameObject.SetActive(false);
                         _newAnimationManager.leftIdle.gameObject.SetActive(true);
                         _newAnimationManager.backIdle.gameObject.SetActive(false);
                     }
-                    if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().backIdle.activeInHierarchy)
+                    if (_bodyAnimationManager.backIdle.activeInHierarchy)
                     {
                         _newAnimationManager.frontIdle.gameObject.SetActive(false);
                         _newAnimationManager.rightIdle.gameObject.SetActive(false);
