@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76c1960faf8d8544913217955840feb, type: 3}
   m_Name: SampleStore
   m_EditorClassIdentifier: 
+  funds: 1500
+  shopDiscount: 0
   hair:
   - {fileID: 8785466311155031276, guid: 07d90858fa2027545a7c9eef10933fb8, type: 3}
   head:

@@ -3,6 +3,18 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Clothes", menuName = "Scriptable Objects/Clothes")]
 public class Clothes : ScriptableObject
 {
+    [Header("Player Funds")]
+    [Space(5)]
+    public int funds;
+
+    // Provides price variation across game map
+    [Space(10)]
+    [Header("Shop Discount")]
+    [Space(5)]
+    [Range(0, 1)]
+    public float shopDiscount;
+
+    [Space(10)]
     [Header("Hair")]
     [Space(5)]
     public GameObject[] hair;

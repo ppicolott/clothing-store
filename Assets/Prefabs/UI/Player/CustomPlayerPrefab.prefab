@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 4978817068353257782}
   - component: {fileID: 4978817068353257781}
   - component: {fileID: 4978817068353257780}
-  - component: {fileID: 4978817068353257779}
+  - component: {fileID: 3174471357210443390}
   m_Layer: 0
   m_Name: CustomPlayerPrefab
   m_TagString: Untagged
@@ -125,7 +125,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4978817068353257783}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.000025431316, y: 45, z: 0}
   m_LocalScale: {x: 350, y: 350, z: 0}
   m_ConstrainProportionsScale: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   animations: []
   clockwiseButton: {fileID: 0}
   counterClockwiseButton: {fileID: 0}
---- !u!114 &4978817068353257779
+--- !u!114 &3174471357210443390
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

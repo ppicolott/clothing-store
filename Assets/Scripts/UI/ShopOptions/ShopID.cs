@@ -5,4 +5,5 @@ using UnityEngine;
 public class ShopID : MonoBehaviour
 {
     public int shopID;
+    public int shopPrice;
 }

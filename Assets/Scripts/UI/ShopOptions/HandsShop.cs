@@ -9,14 +9,14 @@ public class HandsShop : MonoBehaviour
     private GameObject noneHands, leatherBracers, plateGloves;
 
     private Button noneHandsButton, leatherBracersButton, plateGlovesButton;
-    private int noneHandsID, leatherBracersID, plateGlovesID;
+    private ShopID noneHandsID, leatherBracersID, plateGlovesID;
 
     private void Awake()
     {
         // ShopID
-        noneHandsID = noneHands.GetComponent<ShopID>().shopID;
-        leatherBracersID = leatherBracers.GetComponent<ShopID>().shopID;
-        plateGlovesID = plateGloves.GetComponent<ShopID>().shopID;
+        noneHandsID = noneHands.GetComponent<ShopID>();
+        leatherBracersID = leatherBracers.GetComponent<ShopID>();
+        plateGlovesID = plateGloves.GetComponent<ShopID>();
 
         // Buttons
         noneHandsButton = noneHands.GetComponent<Button>();
@@ -31,16 +31,19 @@ public class HandsShop : MonoBehaviour
 
     private void NoneHandsSelected()
     {
-        Wearables.instance.SetClothes("hands", noneHandsID);
+        Wearables.instance.SetClothes("hands", noneHandsID.shopID);
+        CurrencyManager.instance.purchasePrice = noneHandsID.shopPrice;
     }
 
     private void LeatherBracersSelected()
     {
-        Wearables.instance.SetClothes("hands", leatherBracersID);
+        Wearables.instance.SetClothes("hands", leatherBracersID.shopID);
+        CurrencyManager.instance.purchasePrice = leatherBracersID.shopPrice;
     }
 
     private void PlateGlovesSelected()
     {
-        Wearables.instance.SetClothes("hands", plateGlovesID);
+        Wearables.instance.SetClothes("hands", plateGlovesID.shopID);
+        CurrencyManager.instance.purchasePrice = plateGlovesID.shopPrice;
     }
 }

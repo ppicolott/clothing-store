@@ -9,13 +9,13 @@ public class HairShop : MonoBehaviour
     private GameObject noneHair, mediumHair;
 
     private Button noneHairButton, mediumHairButton;
-    private int noneHairID, mediumHairID;
+    private ShopID noneHairID, mediumHairID;
 
     private void Awake()
     {
         // ShopID
-        noneHairID = noneHair.GetComponent<ShopID>().shopID;
-        mediumHairID = mediumHair.GetComponent<ShopID>().shopID;
+        noneHairID = noneHair.GetComponent<ShopID>();
+        mediumHairID = mediumHair.GetComponent<ShopID>();
 
         // Buttons
         noneHairButton = noneHair.GetComponent<Button>();
@@ -28,11 +28,13 @@ public class HairShop : MonoBehaviour
 
     private void NoneHairSelected()
     {
-        Wearables.instance.SetClothes("hair", noneHairID);
+        Wearables.instance.SetClothes("hair", noneHairID.shopID);
+        CurrencyManager.instance.purchasePrice = noneHairID.shopPrice;
     }
 
     private void MediumHairSelected()
     {
-        Wearables.instance.SetClothes("hair", mediumHairID);
+        Wearables.instance.SetClothes("hair", mediumHairID.shopID);
+        CurrencyManager.instance.purchasePrice = mediumHairID.shopPrice;
     }
 }

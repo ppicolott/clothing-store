@@ -3,52 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LegsShop : MonoBehaviour
+public class FeetShop : MonoBehaviour
 {
     [SerializeField]
-    private GameObject noneLegs, greenPants, platePants, robeSkirt;
+    private GameObject noneFeet, plateShoes;
 
-    private Button noneLegsButton, greenPantsButton, platePantsButton, robeSkirtButton;
-    private int noneLegsID, greenPantsID, platePantsID, robeSkirtID;
+    private Button noneFeetButton, plateShoesButton;
+    private ShopID noneFeetID, plateShoesID;
 
     private void Awake()
     {
         // ShopID
-        noneLegsID = noneLegs.GetComponent<ShopID>().shopID;
-        greenPantsID = greenPants.GetComponent<ShopID>().shopID;
-        platePantsID = platePants.GetComponent<ShopID>().shopID;
-        robeSkirtID = robeSkirt.GetComponent<ShopID>().shopID;
+        noneFeetID = noneFeet.GetComponent<ShopID>();
+        plateShoesID = plateShoes.GetComponent<ShopID>();
 
         // Buttons
-        noneLegsButton = noneLegs.GetComponent<Button>();
-        greenPantsButton = greenPants.GetComponent<Button>();
-        platePantsButton = platePants.GetComponent<Button>();
-        robeSkirtButton = robeSkirt.GetComponent<Button>();
+        noneFeetButton = noneFeet.GetComponent<Button>();
+        plateShoesButton = plateShoes.GetComponent<Button>();
 
         // Buttons actions
-        noneLegsButton.onClick.AddListener(NoneLegsSelected);
-        greenPantsButton.onClick.AddListener(GreenPantsSelected);
-        platePantsButton.onClick.AddListener(PlatePantsSelected);
-        robeSkirtButton.onClick.AddListener(RobeSkirtSelected);
+        noneFeetButton.onClick.AddListener(NoneFeetSelected);
+        plateShoesButton.onClick.AddListener(PlateShoesSelected);
     }
 
-    private void NoneLegsSelected()
+    private void NoneFeetSelected()
     {
-        Wearables.instance.SetClothes("legs", noneLegsID);
+        Wearables.instance.SetClothes("feet", noneFeetID.shopID);
+        CurrencyManager.instance.purchasePrice = noneFeetID.shopPrice;
     }
 
-    private void GreenPantsSelected()
+    private void PlateShoesSelected()
     {
-        Wearables.instance.SetClothes("legs", greenPantsID);
-    }
-
-    private void PlatePantsSelected()
-    {
-        Wearables.instance.SetClothes("legs", platePantsID);
-    }
-
-    private void RobeSkirtSelected()
-    {
-        Wearables.instance.SetClothes("legs", robeSkirtID);
+        Wearables.instance.SetClothes("feet", plateShoesID.shopID);
+        CurrencyManager.instance.purchasePrice = plateShoesID.shopPrice;
     }
 }

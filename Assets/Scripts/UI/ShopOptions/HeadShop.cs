@@ -9,17 +9,17 @@ public class HeadShop : MonoBehaviour
     private GameObject noneHead, chainHelmet, chainHood, leatherHat, plateHelmet, robeHood;
 
     private Button noneHeadButton, chainHelmetButton, chainHoodButton, leatherHatButton, plateHelmetButton, robeHoodButton;
-    private int noneHeadID, chainHelmetID, chainHoodID, leatherHatID, plateHelmetID, robeHoodID;
+    private ShopID noneHeadID, chainHelmetID, chainHoodID, leatherHatID, plateHelmetID, robeHoodID;
 
     private void Awake()
     {
         // ShopID
-        noneHeadID = noneHead.GetComponent<ShopID>().shopID;
-        chainHelmetID = chainHelmet.GetComponent<ShopID>().shopID;
-        chainHoodID = chainHood.GetComponent<ShopID>().shopID;
-        leatherHatID = leatherHat.GetComponent<ShopID>().shopID;
-        plateHelmetID = plateHelmet.GetComponent<ShopID>().shopID;
-        robeHoodID = robeHood.GetComponent<ShopID>().shopID;
+        noneHeadID = noneHead.GetComponent<ShopID>();
+        chainHelmetID = chainHelmet.GetComponent<ShopID>();
+        chainHoodID = chainHood.GetComponent<ShopID>();
+        leatherHatID = leatherHat.GetComponent<ShopID>();
+        plateHelmetID = plateHelmet.GetComponent<ShopID>();
+        robeHoodID = robeHood.GetComponent<ShopID>();
 
         // Buttons
         noneHeadButton = noneHead.GetComponent<Button>();
@@ -40,31 +40,37 @@ public class HeadShop : MonoBehaviour
 
     private void NoneHeadSelected()
     {
-        Wearables.instance.SetClothes("head", noneHeadID);
+        Wearables.instance.SetClothes("head", noneHeadID.shopID);
+        CurrencyManager.instance.purchasePrice = noneHeadID.shopPrice;
     }
 
     private void ChainHelmetSelected()
     {
-        Wearables.instance.SetClothes("head", chainHelmetID);
+        Wearables.instance.SetClothes("head", chainHelmetID.shopID);
+        CurrencyManager.instance.purchasePrice = chainHelmetID.shopPrice;
     }
 
     private void ChainHoodSelected()
     {
-        Wearables.instance.SetClothes("head", chainHoodID);
+        Wearables.instance.SetClothes("head", chainHoodID.shopID);
+        CurrencyManager.instance.purchasePrice = chainHoodID.shopPrice;
     }
 
     private void LeatherHatSelected()
     {
-        Wearables.instance.SetClothes("head", leatherHatID);
+        Wearables.instance.SetClothes("head", leatherHatID.shopID);
+        CurrencyManager.instance.purchasePrice = leatherHatID.shopPrice;
     }
 
     private void PlateHelmetSelected()
     {
-        Wearables.instance.SetClothes("head", plateHelmetID);
+        Wearables.instance.SetClothes("head", plateHelmetID.shopID);
+        CurrencyManager.instance.purchasePrice = plateHelmetID.shopPrice;
     }
 
     private void RobeHoodSelected()
     {
-        Wearables.instance.SetClothes("head", robeHoodID);
+        Wearables.instance.SetClothes("head", robeHoodID.shopID);
+        CurrencyManager.instance.purchasePrice = robeHoodID.shopPrice;
     }
 }
