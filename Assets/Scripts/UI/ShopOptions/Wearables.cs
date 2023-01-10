@@ -91,35 +91,36 @@ public class Wearables : MonoBehaviour
                 {
                     GameObject _newClothes;
                     _newClothes = Instantiate(_wearable[i], _wearableTransform.transform);
+                    AnimationManager _newAnimationManager = _newClothes.GetComponent<AnimationManager>();
 
                     // Maintaining same direction of previous clothes
                     if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().frontIdle.activeInHierarchy)
                     {
-                        _newClothes.GetComponent<AnimationManager>().frontIdle.gameObject.SetActive(true);
-                        _newClothes.GetComponent<AnimationManager>().rightIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().leftIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().backIdle.gameObject.SetActive(false);
+                        _newAnimationManager.frontIdle.gameObject.SetActive(true);
+                        _newAnimationManager.rightIdle.gameObject.SetActive(false);
+                        _newAnimationManager.leftIdle.gameObject.SetActive(false);
+                        _newAnimationManager.backIdle.gameObject.SetActive(false);
                     }
                     if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().rightIdle.activeInHierarchy)
                     {
-                        _newClothes.GetComponent<AnimationManager>().frontIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().rightIdle.gameObject.SetActive(true);
-                        _newClothes.GetComponent<AnimationManager>().leftIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().backIdle.gameObject.SetActive(false);
+                        _newAnimationManager.frontIdle.gameObject.SetActive(false);
+                        _newAnimationManager.rightIdle.gameObject.SetActive(true);
+                        _newAnimationManager.leftIdle.gameObject.SetActive(false);
+                        _newAnimationManager.backIdle.gameObject.SetActive(false);
                     }
                     if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().leftIdle.activeInHierarchy)
                     {
-                        _newClothes.GetComponent<AnimationManager>().frontIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().rightIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().leftIdle.gameObject.SetActive(true);
-                        _newClothes.GetComponent<AnimationManager>().backIdle.gameObject.SetActive(false);
+                        _newAnimationManager.frontIdle.gameObject.SetActive(false);
+                        _newAnimationManager.rightIdle.gameObject.SetActive(false);
+                        _newAnimationManager.leftIdle.gameObject.SetActive(true);
+                        _newAnimationManager.backIdle.gameObject.SetActive(false);
                     }
                     if (body.transform.GetChild(0).gameObject.GetComponent<AnimationManager>().backIdle.activeInHierarchy)
                     {
-                        _newClothes.GetComponent<AnimationManager>().frontIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().rightIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().leftIdle.gameObject.SetActive(false);
-                        _newClothes.GetComponent<AnimationManager>().backIdle.gameObject.SetActive(true);
+                        _newAnimationManager.frontIdle.gameObject.SetActive(false);
+                        _newAnimationManager.rightIdle.gameObject.SetActive(false);
+                        _newAnimationManager.leftIdle.gameObject.SetActive(false);
+                        _newAnimationManager.backIdle.gameObject.SetActive(true);
                     }
 
                     // Excluding clothless cases
