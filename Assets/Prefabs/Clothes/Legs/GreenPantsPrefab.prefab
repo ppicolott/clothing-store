@@ -506,6 +506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6242526540912174327}
+  - component: {fileID: 7781904857065318636}
   m_Layer: 0
   m_Name: GreenPantsPrefab
   m_TagString: Untagged
@@ -530,6 +531,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7781904857065318636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6242526540912174320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 767552237721063739}
+  rightIdle: {fileID: 4787826204836335066}
+  leftIdle: {fileID: 4647048020163633480}
+  backIdle: {fileID: 8503969102506584971}
+  frontWalk: {fileID: 6242526541534995083}
+  rightWalk: {fileID: 968012380080908803}
+  leftWalk: {fileID: 1580950896900798329}
+  backWalk: {fileID: 8029698444839042428}
 --- !u!1 &6242526541534995083
 GameObject:
   m_ObjectHideFlags: 0

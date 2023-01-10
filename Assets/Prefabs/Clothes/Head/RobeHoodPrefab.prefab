@@ -114,6 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102727508787182629}
+  - component: {fileID: 5456791830198679420}
   m_Layer: 0
   m_Name: RobeHoodPrefab
   m_TagString: Untagged
@@ -138,6 +139,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5456791830198679420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102727508787182628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 1102727509216982696}
+  rightIdle: {fileID: 8198489009215563543}
+  leftIdle: {fileID: 6965506039318324915}
+  backIdle: {fileID: 2565986776595395327}
+  frontWalk: {fileID: 7982318348541755128}
+  rightWalk: {fileID: 1065556671575887666}
+  leftWalk: {fileID: 4561828148395603215}
+  backWalk: {fileID: 7652527358455130497}
 --- !u!1 &1102727509216982696
 GameObject:
   m_ObjectHideFlags: 0

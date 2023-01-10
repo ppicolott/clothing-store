@@ -394,6 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2357097520405758081}
+  - component: {fileID: 5065619786934064722}
   m_Layer: 0
   m_Name: LeatherHatPrefab
   m_TagString: Untagged
@@ -418,6 +419,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5065619786934064722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357097520405758080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 7364069741240226533}
+  rightIdle: {fileID: 5205586359271091689}
+  leftIdle: {fileID: 6390962573672412725}
+  backIdle: {fileID: 3024206022447176215}
+  frontWalk: {fileID: 2357097520359041093}
+  rightWalk: {fileID: 4248805451219550641}
+  leftWalk: {fileID: 1982616066628955698}
+  backWalk: {fileID: 1894745937119800479}
 --- !u!1 &3024206022447176215
 GameObject:
   m_ObjectHideFlags: 0

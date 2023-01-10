@@ -730,6 +730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7806115295018384713}
+  - component: {fileID: 2804760648517975286}
   m_Layer: 0
   m_Name: ChainHelmetPrefab
   m_TagString: Untagged
@@ -754,6 +755,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2804760648517975286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806115295018384712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 2866112895809082093}
+  rightIdle: {fileID: 76911690381673347}
+  leftIdle: {fileID: 5781868493672836897}
+  backIdle: {fileID: 4712974701892673302}
+  frontWalk: {fileID: 7806115295345296171}
+  rightWalk: {fileID: 4293186387622567391}
+  leftWalk: {fileID: 3915536943136786079}
+  backWalk: {fileID: 434216845062249105}
 --- !u!1 &7806115295345296171
 GameObject:
   m_ObjectHideFlags: 0

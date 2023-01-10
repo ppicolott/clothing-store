@@ -611,6 +611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7052801072157310657}
+  - component: {fileID: 2069021339125692392}
   m_Layer: 0
   m_Name: PlateShoesPrefab
   m_TagString: Untagged
@@ -635,6 +636,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2069021339125692392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7052801072157310658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 7052801072219414933}
+  rightIdle: {fileID: 7052801071657388385}
+  leftIdle: {fileID: 7052801071463083301}
+  backIdle: {fileID: 7052801071975324351}
+  frontWalk: {fileID: 6645598718549210582}
+  rightWalk: {fileID: 5435081543693727710}
+  leftWalk: {fileID: 1321907825386063573}
+  backWalk: {fileID: 7255560178292894353}
 --- !u!1 &7052801072219414933
 GameObject:
   m_ObjectHideFlags: 0

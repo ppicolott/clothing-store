@@ -835,6 +835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8947123261903506824}
+  - component: {fileID: 7809250643792073655}
   m_Layer: 0
   m_Name: ChainMailPrefab
   m_TagString: Untagged
@@ -859,3 +860,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7809250643792073655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947123261903506825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 1772808501488621229}
+  rightIdle: {fileID: 3956869578021312311}
+  leftIdle: {fileID: 6008900452559459853}
+  backIdle: {fileID: 604630390016451467}
+  frontWalk: {fileID: 8947123260885405492}
+  rightWalk: {fileID: 4654772569329893051}
+  leftWalk: {fileID: 3126396657862346482}
+  backWalk: {fileID: 4205941264491658009}

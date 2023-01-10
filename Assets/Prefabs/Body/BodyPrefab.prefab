@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1025048856366018214}
+  - component: {fileID: 7592812213617020148}
   m_Layer: 0
   m_Name: BodyPrefab
   m_TagString: Untagged
@@ -33,6 +34,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7592812213617020148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025048856366018217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 6570175533391202271}
+  rightIdle: {fileID: 6985237312764826748}
+  leftIdle: {fileID: 8340266240789561662}
+  backIdle: {fileID: 3019379445196491040}
+  frontWalk: {fileID: 1025048857391739894}
+  rightWalk: {fileID: 1025048858128889325}
+  leftWalk: {fileID: 1025048857625065320}
+  backWalk: {fileID: 1025048857962702448}
 --- !u!1 &1025048857391739894
 GameObject:
   m_ObjectHideFlags: 0

@@ -415,6 +415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9083851459329467979}
+  - component: {fileID: 3331732413756842458}
   m_Layer: 0
   m_Name: PlateMailPrefab
   m_TagString: Untagged
@@ -439,6 +440,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3331732413756842458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083851459329467978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 3090485348950173531}
+  rightIdle: {fileID: 610825961758190767}
+  leftIdle: {fileID: 2169281522335249254}
+  backIdle: {fileID: 3380175133481142267}
+  frontWalk: {fileID: 9083851459724691575}
+  rightWalk: {fileID: 9083851459661675181}
+  leftWalk: {fileID: 9083851460728274212}
+  backWalk: {fileID: 9083851460608017791}
 --- !u!1 &9083851459661675181
 GameObject:
   m_ObjectHideFlags: 0

@@ -506,6 +506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5056178176535314070}
+  - component: {fileID: 2657558291869001243}
   m_Layer: 0
   m_Name: RobeShirtPrefab
   m_TagString: Untagged
@@ -530,6 +531,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2657558291869001243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056178176535314071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 5577674382791878580}
+  rightIdle: {fileID: 2326960088910576821}
+  leftIdle: {fileID: 1986552990797745851}
+  backIdle: {fileID: 2772052569258864464}
+  frontWalk: {fileID: 5056178176240290276}
+  rightWalk: {fileID: 5056178175632968484}
+  leftWalk: {fileID: 5056178176870660373}
+  backWalk: {fileID: 5056178176924943495}
 --- !u!1 &5056178176870660373
 GameObject:
   m_ObjectHideFlags: 0

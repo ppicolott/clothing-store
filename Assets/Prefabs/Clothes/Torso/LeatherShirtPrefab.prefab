@@ -198,6 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 953302810367003182}
+  - component: {fileID: 143670166933326325}
   m_Layer: 0
   m_Name: LeatherShirtPrefab
   m_TagString: Untagged
@@ -222,6 +223,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &143670166933326325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953302810367003177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 421156909768336342}
+  rightIdle: {fileID: 8173607186288473727}
+  leftIdle: {fileID: 2565364009918524431}
+  backIdle: {fileID: 1405460820193219696}
+  frontWalk: {fileID: 953302808660904466}
+  rightWalk: {fileID: 7773125432772682306}
+  leftWalk: {fileID: 4161032354506337319}
+  backWalk: {fileID: 3349590457582930385}
 --- !u!1 &1405460820193219696
 GameObject:
   m_ObjectHideFlags: 0

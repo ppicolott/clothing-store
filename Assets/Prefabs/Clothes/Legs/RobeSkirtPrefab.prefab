@@ -597,6 +597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5220881705405256776}
+  - component: {fileID: 1983536579153617315}
   m_Layer: 0
   m_Name: RobeSkirtPrefab
   m_TagString: Untagged
@@ -621,6 +622,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1983536579153617315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5220881705405256779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 2947098431444441797}
+  rightIdle: {fileID: 8629444260447034857}
+  leftIdle: {fileID: 1459107976030211938}
+  backIdle: {fileID: 8905355106985735582}
+  frontWalk: {fileID: 5220881705371543873}
+  rightWalk: {fileID: 5220881703879550422}
+  leftWalk: {fileID: 5220881704046268363}
+  backWalk: {fileID: 5220881704108109495}
 --- !u!1 &7724159249131414781
 GameObject:
   m_ObjectHideFlags: 0

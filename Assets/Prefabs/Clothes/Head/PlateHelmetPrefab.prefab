@@ -611,6 +611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7272571721251948668}
+  - component: {fileID: 6853288640121577345}
   m_Layer: 0
   m_Name: PlateHelmetPrefab
   m_TagString: Untagged
@@ -635,6 +636,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6853288640121577345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7272571721251948669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e8cdbbc6d22fe46a3cbd7a4e45e901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontIdle: {fileID: 7272571721115910498}
+  rightIdle: {fileID: 6436837822239316145}
+  leftIdle: {fileID: 2176129196928321520}
+  backIdle: {fileID: 7282296799757127763}
+  frontWalk: {fileID: 982576034400175758}
+  rightWalk: {fileID: 7491098573471820501}
+  leftWalk: {fileID: 5670730813427562749}
+  backWalk: {fileID: 2256787553189385537}
 --- !u!1 &7282296799757127763
 GameObject:
   m_ObjectHideFlags: 0
