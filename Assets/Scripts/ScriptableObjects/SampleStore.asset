@@ -12,10 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76c1960faf8d8544913217955840feb, type: 3}
   m_Name: SampleStore
   m_EditorClassIdentifier: 
-  head: []
+  head:
+  - {fileID: 7806115295018384712, guid: 8c2b60ffd2e74144e8e560fbc10d9149, type: 3}
+  - {fileID: 2357097520405758080, guid: 42388b90923726846b58600293dbd0ee, type: 3}
+  - {fileID: 7272571721251948669, guid: cf5137db891a7434188e1328cbc67dfb, type: 3}
+  - {fileID: 1102727508787182628, guid: af0ddaf71ba422c4b8aa43415e2107e5, type: 3}
   torso:
   - {fileID: 1567640224951046405, guid: be480429dcf523843ba4c6a9c0ab2f6a, type: 3}
   - {fileID: 8947123261903506825, guid: b7f6ab8dd0c68064fbb6388f004fd6ff, type: 3}
-  hands: []
-  legs: []
-  feet: []
+  - {fileID: 2597138222838180688, guid: 220e6938287285e45bb53fd6a6040825, type: 3}
+  - {fileID: 953302810367003177, guid: 9176c825c7e52ef40b402f32c0c00a9c, type: 3}
+  - {fileID: 9083851459329467978, guid: bd4b2ede397e76548a72beec48fef70c, type: 3}
+  - {fileID: 5056178176535314071, guid: 19298c364364ccd4e91e7e48707b0a3f, type: 3}
+  hands:
+  - {fileID: 5700590184874149517, guid: fb97ae8716f8b244dbe14a90046054c9, type: 3}
+  - {fileID: 3345566346298045711, guid: a8604df8a94b01a4b8666677c1c6472c, type: 3}
+  legs:
+  - {fileID: 6242526540912174320, guid: 84e8cce580ba54346a4c3c4fc988ec44, type: 3}
+  - {fileID: 3751339128037338474, guid: d4443535ed6951b47834a43f746301fc, type: 3}
+  - {fileID: 5220881705405256779, guid: 54d5c8a52edcd9f418c7969b5221bf29, type: 3}
+  feet:
+  - {fileID: 7052801072157310658, guid: 6a6e5b26bd10afd4e8c14d7de3ad1270, type: 3}
