@@ -24,19 +24,11 @@ public class Movement : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        LoadAnimationList();
     }
 
     private void FixedUpdate()
     {
-        // Updating animations list when changing clothes
-        foreach (AnimationManager anim in animations)
-        {
-            if (!anim)
-            {
-                LoadAnimationList();
-            }
-        }
+        LoadAnimationList();
 
         if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed)
         {

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0badfcf0df288d44c9d4da52b429d1ec
+guid: 96043b7b8e4e72c458c37aa15b040b50
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_0
+      name: TORSO_leather_armor_torso_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 203854f6b99429c4a99943d27906ba8e
-      internalID: -1204049732
+      spriteID: f68b4c935ca0c0444af17e6549f98dea
+      internalID: 1575046934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_1
+      name: TORSO_leather_armor_torso_1
       rect:
         serializedVersion: 2
         x: 64
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8532a0f8389885345ad2a9f228872c94
-      internalID: 1684499536
+      spriteID: a42e2f471ccd90844bf387cb81d24756
+      internalID: -834453137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_2
+      name: TORSO_leather_armor_torso_2
       rect:
         serializedVersion: 2
         x: 128
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce70b24479d6a81428b3ddf137e7cf36
-      internalID: 1891449978
+      spriteID: 0ea8427ff896474439baa8bf4188f116
+      internalID: -409474204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_3
+      name: TORSO_leather_armor_torso_3
       rect:
         serializedVersion: 2
         x: 192
@@ -206,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e06cb7d934da04387c6b60a653cc4b
-      internalID: 789692596
+      spriteID: 52decfa87d06f954eb602d60502d6ecd
+      internalID: 587145861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_4
+      name: TORSO_leather_armor_torso_4
       rect:
         serializedVersion: 2
         x: 256
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba2216798acb8a4e8f8d8deefe4f69f
-      internalID: -1364067081
+      spriteID: 845b74abb46e0fa44bf30ad10b453a82
+      internalID: -2067405273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_5
+      name: TORSO_leather_armor_torso_5
       rect:
         serializedVersion: 2
         x: 320
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfaa557ec2d35db40a5162bf0a273fc2
-      internalID: -886162336
+      spriteID: f91c519fea334714b9dcb9f7ac3868c7
+      internalID: -2126452272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_6
+      name: TORSO_leather_armor_torso_6
       rect:
         serializedVersion: 2
         x: 384
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f17a9f4638110d04d918db52fd2ca37b
-      internalID: 1178242870
+      spriteID: d41a6fe8dcb9192468147b5790970e82
+      internalID: -1719432029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_7
+      name: TORSO_leather_armor_torso_7
       rect:
         serializedVersion: 2
         x: 448
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4201c68c58d02449f4e8b64dfb02bb
-      internalID: 382296616
+      spriteID: 0f57db5033ef8a942b9e272fa47ecd7c
+      internalID: -546224677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_8
+      name: TORSO_leather_armor_torso_8
       rect:
         serializedVersion: 2
         x: 512
@@ -311,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d59417cb9aa85644b8ded4dda055d31
-      internalID: 895952024
+      spriteID: f7de7692f0dc93d40b98870e5c11c0ac
+      internalID: 1932300937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_9
+      name: TORSO_leather_armor_torso_9
       rect:
         serializedVersion: 2
         x: 0
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 195bec0625911794aafd6215aec0ee89
-      internalID: 878049343
+      spriteID: c2722b5ea83f25e46acfef0aa2365edd
+      internalID: -283046254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_10
+      name: TORSO_leather_armor_torso_10
       rect:
         serializedVersion: 2
         x: 64
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f129a74d0f83b0f4a95a3a91d0f621e0
-      internalID: -1140012684
+      spriteID: d925a1c4fb122f14c9c6a692852f8800
+      internalID: -980587726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_11
+      name: TORSO_leather_armor_torso_11
       rect:
         serializedVersion: 2
         x: 128
@@ -374,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be7e9e962a882de4b973aaafcc2ff2fd
-      internalID: -1261852410
+      spriteID: 3cdf333ecdafc844194346364848ff2d
+      internalID: 988652562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_12
+      name: TORSO_leather_armor_torso_12
       rect:
         serializedVersion: 2
         x: 192
@@ -395,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7638a71ea2b08ad43a672c8f948bfe25
-      internalID: 1174294063
+      spriteID: b61f854cb2c99db4c812d34e43dba079
+      internalID: 197845804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_13
+      name: TORSO_leather_armor_torso_13
       rect:
         serializedVersion: 2
         x: 256
@@ -416,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e50e39562c1e654a8f91f86a32586a0
-      internalID: 1887740374
+      spriteID: e10e70e43aa9235429113e156a45fc51
+      internalID: -721756047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_14
+      name: TORSO_leather_armor_torso_14
       rect:
         serializedVersion: 2
         x: 320
@@ -437,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45abb11a00e727c418308b9b3f10e766
-      internalID: 977519106
+      spriteID: bb4196cc55b19354bbbc85d594335b5d
+      internalID: 1194387340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_15
+      name: TORSO_leather_armor_torso_15
       rect:
         serializedVersion: 2
         x: 384
@@ -458,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06abbd22f343d7840bc0d7da224439dc
-      internalID: 1649834149
+      spriteID: 2df3d76c25ae95149b8ca01cef06a2e5
+      internalID: 266210771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_16
+      name: TORSO_leather_armor_torso_16
       rect:
         serializedVersion: 2
         x: 448
@@ -479,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8095a3be8880af64d949ad707be956a8
-      internalID: -600755474
+      spriteID: a8d93ea3683ab4c449d913323d7e99f6
+      internalID: -1002510989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_17
+      name: TORSO_leather_armor_torso_17
       rect:
         serializedVersion: 2
         x: 512
@@ -500,20 +500,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd070538c6e48bb4ebd103c1307f603c
-      internalID: 1560844758
+      spriteID: df9590cee4d29904ab5d2eba66c8aece
+      internalID: 47264827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_18
+      name: TORSO_leather_armor_torso_18
       rect:
         serializedVersion: 2
-        x: 11
-        y: 64
-        width: 42
-        height: 42
+        x: 0
+        y: 54
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18e8ccc754661e349985e82ad9486e17
-      internalID: -119621024
+      spriteID: cdfe1975e6ba65f4895501140820ba6e
+      internalID: 854120026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_19
+      name: TORSO_leather_armor_torso_19
       rect:
         serializedVersion: 2
         x: 64
@@ -542,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a9ed43e0c899d44bf357fe3ebfb95e
-      internalID: -1844818809
+      spriteID: 79be6eb06ce404948b02ffe86718f76d
+      internalID: 455523467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_20
+      name: TORSO_leather_armor_torso_20
       rect:
         serializedVersion: 2
         x: 128
@@ -563,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cbe4a443412a8449b456b1aa0932163
-      internalID: -1958170612
+      spriteID: 681d24d5ba190f14c9f661236475f662
+      internalID: 1030875103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_21
+      name: TORSO_leather_armor_torso_21
       rect:
         serializedVersion: 2
         x: 192
@@ -584,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deb78a64c7e370848af7d8d82778c916
-      internalID: -54679177
+      spriteID: 5f800ef25978e4c40bf266d25feae599
+      internalID: 254136481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_22
+      name: TORSO_leather_armor_torso_22
       rect:
         serializedVersion: 2
         x: 256
@@ -605,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a75320ecf01f06e4ea0c6add610e28d4
-      internalID: 1760965213
+      spriteID: 1d3c269134ce9944f9b1801e69e7158a
+      internalID: -2010436717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_23
+      name: TORSO_leather_armor_torso_23
       rect:
         serializedVersion: 2
         x: 320
@@ -626,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47c6f3236e6c9124cae7a2e9e85fecc5
-      internalID: 1818230192
+      spriteID: 5a24e4ea41f408a4988543f2f9e0c09a
+      internalID: -369620601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_24
+      name: TORSO_leather_armor_torso_24
       rect:
         serializedVersion: 2
         x: 384
@@ -647,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad3ad53d209de24387a254e138d3fe2
-      internalID: 902224098
+      spriteID: c4841d5d08aee694e84a46c33440691c
+      internalID: 441371129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_25
+      name: TORSO_leather_armor_torso_25
       rect:
         serializedVersion: 2
         x: 448
@@ -668,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d6eaa465608d034b9a32df213203a41
-      internalID: -2045886833
+      spriteID: 4acdd0ecc716cd04dad467248b5a1c7b
+      internalID: 424811097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_26
+      name: TORSO_leather_armor_torso_26
       rect:
         serializedVersion: 2
         x: 512
@@ -689,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61d57827ac8463046a3f0414d196c3b6
-      internalID: 1704794855
+      spriteID: 2ca6d0282394f634e86b61532ab4d476
+      internalID: -599401684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_27
+      name: TORSO_leather_armor_torso_27
       rect:
         serializedVersion: 2
         x: 0
@@ -710,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b6066318802b643af56c3f31e1890a
-      internalID: -782464114
+      spriteID: 1679ec30cece56d4ca93cea1a4fc32d4
+      internalID: 274157287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_28
+      name: TORSO_leather_armor_torso_28
       rect:
         serializedVersion: 2
         x: 64
@@ -731,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a315cd145c68bb4ea030880f76e25c1
-      internalID: -323977606
+      spriteID: f1d5eed25e95bc149baa426a070ff829
+      internalID: -1232027669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_29
+      name: TORSO_leather_armor_torso_29
       rect:
         serializedVersion: 2
         x: 128
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e5b7ddf7a9220d44b08f76ffca9da96
-      internalID: 95372076
+      spriteID: 004ba9600b91b3140ab28068d660302c
+      internalID: -1001123715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_30
+      name: TORSO_leather_armor_torso_30
       rect:
         serializedVersion: 2
         x: 192
@@ -773,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7442545269ef79048bb414eab94b43de
-      internalID: 997218246
+      spriteID: 8d83fccde2cf7204e93621d7373cd882
+      internalID: -830191053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_31
+      name: TORSO_leather_armor_torso_31
       rect:
         serializedVersion: 2
         x: 256
@@ -794,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e4e82a67e01d7c469561cb4c5067f8d
-      internalID: 1178929845
+      spriteID: b120f4f12267a734d9e548ab0a8c3300
+      internalID: 217424468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_32
+      name: TORSO_leather_armor_torso_32
       rect:
         serializedVersion: 2
         x: 320
@@ -815,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 605b45357c8df9b45b658384531d2249
-      internalID: -391827211
+      spriteID: bcc4555e470afeb40be1469d41721764
+      internalID: 1583243415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_33
+      name: TORSO_leather_armor_torso_33
       rect:
         serializedVersion: 2
         x: 384
@@ -836,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8de942e68e7a28b4e8f07f902a697ab1
-      internalID: 1449224036
+      spriteID: f51c61679d03a9546bcb8cdb35baad0d
+      internalID: -762871177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_34
+      name: TORSO_leather_armor_torso_34
       rect:
         serializedVersion: 2
         x: 448
@@ -857,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f534147e80e0ba4f947bc9619f3b309
-      internalID: -1715038904
+      spriteID: bb82f6d87a8e4a646b433179ecf38560
+      internalID: 1222120376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TORSO_chain_armor_torso_35
+      name: TORSO_leather_armor_torso_35
       rect:
         serializedVersion: 2
         x: 512
@@ -878,8 +878,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a32145694c4c64640831a2e612b77be1
-      internalID: -578747897
+      spriteID: a482ae1b650bf0541baa5b9057184d41
+      internalID: -1011451324
       vertices: []
       indices: 
       edges: []
@@ -895,42 +895,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TORSO_chain_armor_torso_11: -1261852410
-      TORSO_chain_armor_torso_2: 1891449978
-      TORSO_chain_armor_torso_1: 1684499536
-      TORSO_chain_armor_torso_27: -782464114
-      TORSO_chain_armor_torso_17: 1560844758
-      TORSO_chain_armor_torso_23: 1818230192
-      TORSO_chain_armor_torso_26: 1704794855
-      TORSO_chain_armor_torso_18: -119621024
-      TORSO_chain_armor_torso_24: 902224098
-      TORSO_chain_armor_torso_31: 1178929845
-      TORSO_chain_armor_torso_29: 95372076
-      TORSO_chain_armor_torso_4: -1364067081
-      TORSO_chain_armor_torso_14: 977519106
-      TORSO_chain_armor_torso_12: 1174294063
-      TORSO_chain_armor_torso_20: -1958170612
-      TORSO_chain_armor_torso_28: -323977606
-      TORSO_chain_armor_torso_35: -578747897
-      TORSO_chain_armor_torso_16: -600755474
-      TORSO_chain_armor_torso_0: -1204049732
-      TORSO_chain_armor_torso_6: 1178242870
-      TORSO_chain_armor_torso_21: -54679177
-      TORSO_chain_armor_torso_32: -391827211
-      TORSO_chain_armor_torso_34: -1715038904
-      TORSO_chain_armor_torso_22: 1760965213
-      TORSO_chain_armor_torso_33: 1449224036
-      TORSO_chain_armor_torso_15: 1649834149
-      TORSO_chain_armor_torso_3: 789692596
-      TORSO_chain_armor_torso_9: 878049343
-      TORSO_chain_armor_torso_8: 895952024
-      TORSO_chain_armor_torso_19: -1844818809
-      TORSO_chain_armor_torso_30: 997218246
-      TORSO_chain_armor_torso_13: 1887740374
-      TORSO_chain_armor_torso_25: -2045886833
-      TORSO_chain_armor_torso_7: 382296616
-      TORSO_chain_armor_torso_10: -1140012684
-      TORSO_chain_armor_torso_5: -886162336
+      TORSO_leather_armor_torso_14: 1194387340
+      TORSO_leather_armor_torso_35: -1011451324
+      TORSO_leather_armor_torso_32: 1583243415
+      TORSO_leather_armor_torso_4: -2067405273
+      TORSO_leather_armor_torso_8: 1932300937
+      TORSO_leather_armor_torso_0: 1575046934
+      TORSO_leather_armor_torso_7: -546224677
+      TORSO_leather_armor_torso_10: -980587726
+      TORSO_leather_armor_torso_25: 424811097
+      TORSO_leather_armor_torso_18: 854120026
+      TORSO_leather_armor_torso_2: -409474204
+      TORSO_leather_armor_torso_11: 988652562
+      TORSO_leather_armor_torso_13: -721756047
+      TORSO_leather_armor_torso_28: -1232027669
+      TORSO_leather_armor_torso_31: 217424468
+      TORSO_leather_armor_torso_27: 274157287
+      TORSO_leather_armor_torso_12: 197845804
+      TORSO_leather_armor_torso_1: -834453137
+      TORSO_leather_armor_torso_20: 1030875103
+      TORSO_leather_armor_torso_33: -762871177
+      TORSO_leather_armor_torso_9: -283046254
+      TORSO_leather_armor_torso_16: -1002510989
+      TORSO_leather_armor_torso_22: -2010436717
+      TORSO_leather_armor_torso_15: 266210771
+      TORSO_leather_armor_torso_5: -2126452272
+      TORSO_leather_armor_torso_23: -369620601
+      TORSO_leather_armor_torso_19: 455523467
+      TORSO_leather_armor_torso_29: -1001123715
+      TORSO_leather_armor_torso_24: 441371129
+      TORSO_leather_armor_torso_3: 587145861
+      TORSO_leather_armor_torso_26: -599401684
+      TORSO_leather_armor_torso_17: 47264827
+      TORSO_leather_armor_torso_6: -1719432029
+      TORSO_leather_armor_torso_21: 254136481
+      TORSO_leather_armor_torso_34: 1222120376
+      TORSO_leather_armor_torso_30: -830191053
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
