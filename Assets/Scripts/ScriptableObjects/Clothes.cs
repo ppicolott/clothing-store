@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Wearables", menuName = "Scriptable Objects/Wearables")]
-public class Wearables : ScriptableObject
+[CreateAssetMenu(fileName = "Clothes", menuName = "Scriptable Objects/Clothes")]
+public class Clothes : ScriptableObject
 {
     [Header("Head")]
     [Space(5)]

@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FittingRoom : MonoBehaviour
+public class Wearables : MonoBehaviour
 {
     [SerializeField]
     private GameObject body, hair, head, torso, hands, legs, feet;
 
     [SerializeField]
-    private Wearables wearables;
+    private Clothes clothes;
 
     // Head
     private bool chainHelmet, chainHood, leatherHat, plateHelmet, robeHood = false;
@@ -21,7 +21,7 @@ public class FittingRoom : MonoBehaviour
     // Feet
     private bool plateShoes = false;
 
-    public static FittingRoom instance;
+    public static Wearables instance;
 
     private void Awake()
     {
@@ -42,7 +42,7 @@ public class FittingRoom : MonoBehaviour
         {
             if (_head[i])
             {
-                //head.sprite = wearables.head[i];
+                //head.sprite = clothes.head[i];
             }
         }
     }
@@ -63,7 +63,7 @@ public class FittingRoom : MonoBehaviour
             if (_torso[i])
             {
                 Destroy(torso.transform.GetChild(0).gameObject);
-                Instantiate(wearables.torso[i], torso.transform);
+                Instantiate(clothes.torso[i], torso.transform);
 
                 // Temporary:
                 if (torso.GetComponentInChildren<Animator>())
@@ -91,7 +91,7 @@ public class FittingRoom : MonoBehaviour
         {
             if (_hands[i])
             {
-                //hands.sprite = wearables.hands[i];
+                //hands.sprite = clothes.hands[i];
             }
         }
     }
@@ -108,7 +108,7 @@ public class FittingRoom : MonoBehaviour
         {
             if (_legs[i])
             {
-                //legs.sprite = wearables.legs[i];
+                //legs.sprite = clothes.legs[i];
             }
         }
     }
@@ -116,7 +116,7 @@ public class FittingRoom : MonoBehaviour
     public void SetFeet(bool _plateShoes)
     {
         plateShoes = _plateShoes;
-        //legs.sprite = wearables.legs[0];
+        //legs.sprite = clothes.legs[0];
 
         // bool[] _legs = { _plateShoes };
         // 
@@ -124,7 +124,7 @@ public class FittingRoom : MonoBehaviour
         // {
         //     if (_legs[i])
         //     {
-        //         legs.sprite = wearables.legs[i];
+        //         legs.sprite = clothes.legs[i];
         //     }
         // }
     }

@@ -275,8 +275,8 @@ GameObject:
   m_Component:
   - component: {fileID: 113497022}
   - component: {fileID: 113497025}
-  - component: {fileID: 113497023}
   - component: {fileID: 113497024}
+  - component: {fileID: 113497023}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -321,7 +321,7 @@ MonoBehaviour:
   hands: {fileID: 153807026}
   legs: {fileID: 60866212}
   feet: {fileID: 637187316}
-  wearables: {fileID: 11400000, guid: d662c1f41f1003f48808e7a3779caaa6, type: 2}
+  clothes: {fileID: 11400000, guid: d662c1f41f1003f48808e7a3779caaa6, type: 2}
 --- !u!114 &113497024
 MonoBehaviour:
   m_ObjectHideFlags: 0

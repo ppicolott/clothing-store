@@ -18,11 +18,11 @@ public class BttnTest : MonoBehaviour
 
     private void ChainMailSelected()
     {
-        FittingRoom.instance.SetTorso(true, false, false, false, false, false);
+        Wearables.instance.SetTorso(true, false, false, false, false, false);
     }
 
     private void LeatherShirtSelected()
     {
-        FittingRoom.instance.SetTorso(false, true, false, false, false, false);
+        Wearables.instance.SetTorso(false, true, false, false, false, false);
     }
 }
