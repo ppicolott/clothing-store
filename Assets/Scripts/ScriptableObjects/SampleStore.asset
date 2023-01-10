@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76c1960faf8d8544913217955840feb, type: 3}
+  m_Name: SampleStore
+  m_EditorClassIdentifier: 
+  head: []
+  torso:
+  - {fileID: 1567640224951046405, guid: be480429dcf523843ba4c6a9c0ab2f6a, type: 3}
+  - {fileID: 8947123261903506825, guid: b7f6ab8dd0c68064fbb6388f004fd6ff, type: 3}
+  hands: []
+  legs: []
+  feet: []

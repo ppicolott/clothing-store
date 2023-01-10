@@ -132,10 +132,10 @@ TextureImporter:
       name: HEAD_hair_blonde_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 220
-        width: 22
-        height: 21
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: HEAD_hair_blonde_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 220
-        width: 22
-        height: 21
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: HEAD_hair_blonde_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 220
-        width: 22
-        height: 21
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: HEAD_hair_blonde_3
       rect:
         serializedVersion: 2
-        x: 213
-        y: 219
-        width: 22
-        height: 21
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: HEAD_hair_blonde_4
       rect:
         serializedVersion: 2
-        x: 277
-        y: 220
-        width: 22
-        height: 21
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: HEAD_hair_blonde_5
       rect:
         serializedVersion: 2
-        x: 341
-        y: 220
-        width: 22
-        height: 21
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: HEAD_hair_blonde_6
       rect:
         serializedVersion: 2
-        x: 405
-        y: 220
-        width: 22
-        height: 21
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: HEAD_hair_blonde_7
       rect:
         serializedVersion: 2
-        x: 469
-        y: 219
-        width: 22
-        height: 21
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: HEAD_hair_blonde_8
       rect:
         serializedVersion: 2
-        x: 533
-        y: 220
-        width: 22
-        height: 21
+        x: 512
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: HEAD_hair_blonde_9
       rect:
         serializedVersion: 2
-        x: 21
-        y: 156
-        width: 23
-        height: 21
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: HEAD_hair_blonde_10
       rect:
         serializedVersion: 2
-        x: 85
-        y: 155
-        width: 23
-        height: 21
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +363,10 @@ TextureImporter:
       name: HEAD_hair_blonde_11
       rect:
         serializedVersion: 2
-        x: 149
-        y: 156
-        width: 23
-        height: 21
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +384,10 @@ TextureImporter:
       name: HEAD_hair_blonde_12
       rect:
         serializedVersion: 2
-        x: 213
-        y: 156
-        width: 23
-        height: 21
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +405,10 @@ TextureImporter:
       name: HEAD_hair_blonde_13
       rect:
         serializedVersion: 2
-        x: 277
-        y: 156
-        width: 23
-        height: 21
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +426,10 @@ TextureImporter:
       name: HEAD_hair_blonde_14
       rect:
         serializedVersion: 2
-        x: 341
-        y: 155
-        width: 23
-        height: 21
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +447,10 @@ TextureImporter:
       name: HEAD_hair_blonde_15
       rect:
         serializedVersion: 2
-        x: 405
-        y: 156
-        width: 23
-        height: 21
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: HEAD_hair_blonde_16
       rect:
         serializedVersion: 2
-        x: 469
-        y: 156
-        width: 23
-        height: 21
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +489,10 @@ TextureImporter:
       name: HEAD_hair_blonde_17
       rect:
         serializedVersion: 2
-        x: 533
-        y: 156
-        width: 23
-        height: 21
+        x: 512
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +510,10 @@ TextureImporter:
       name: HEAD_hair_blonde_18
       rect:
         serializedVersion: 2
-        x: 21
-        y: 94
-        width: 22
-        height: 19
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +531,10 @@ TextureImporter:
       name: HEAD_hair_blonde_19
       rect:
         serializedVersion: 2
-        x: 85
-        y: 94
-        width: 22
-        height: 19
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +552,10 @@ TextureImporter:
       name: HEAD_hair_blonde_20
       rect:
         serializedVersion: 2
-        x: 149
-        y: 94
-        width: 22
-        height: 19
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +573,10 @@ TextureImporter:
       name: HEAD_hair_blonde_21
       rect:
         serializedVersion: 2
-        x: 213
-        y: 93
-        width: 22
-        height: 19
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +594,10 @@ TextureImporter:
       name: HEAD_hair_blonde_22
       rect:
         serializedVersion: 2
-        x: 277
-        y: 94
-        width: 22
-        height: 19
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +615,10 @@ TextureImporter:
       name: HEAD_hair_blonde_23
       rect:
         serializedVersion: 2
-        x: 341
-        y: 94
-        width: 22
-        height: 19
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,10 +636,10 @@ TextureImporter:
       name: HEAD_hair_blonde_24
       rect:
         serializedVersion: 2
-        x: 405
-        y: 94
-        width: 22
-        height: 19
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: HEAD_hair_blonde_25
       rect:
         serializedVersion: 2
-        x: 469
-        y: 93
-        width: 22
-        height: 19
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: HEAD_hair_blonde_26
       rect:
         serializedVersion: 2
-        x: 533
-        y: 94
-        width: 22
-        height: 19
+        x: 512
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,10 +699,10 @@ TextureImporter:
       name: HEAD_hair_blonde_27
       rect:
         serializedVersion: 2
-        x: 20
-        y: 28
-        width: 23
-        height: 21
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,10 +720,10 @@ TextureImporter:
       name: HEAD_hair_blonde_28
       rect:
         serializedVersion: 2
-        x: 84
-        y: 27
-        width: 23
-        height: 21
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,10 +741,10 @@ TextureImporter:
       name: HEAD_hair_blonde_29
       rect:
         serializedVersion: 2
-        x: 148
-        y: 28
-        width: 23
-        height: 21
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -762,10 +762,10 @@ TextureImporter:
       name: HEAD_hair_blonde_30
       rect:
         serializedVersion: 2
-        x: 212
-        y: 28
-        width: 23
-        height: 21
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,10 +783,10 @@ TextureImporter:
       name: HEAD_hair_blonde_31
       rect:
         serializedVersion: 2
-        x: 276
-        y: 28
-        width: 23
-        height: 21
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -804,10 +804,10 @@ TextureImporter:
       name: HEAD_hair_blonde_32
       rect:
         serializedVersion: 2
-        x: 340
-        y: 27
-        width: 23
-        height: 21
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -825,10 +825,10 @@ TextureImporter:
       name: HEAD_hair_blonde_33
       rect:
         serializedVersion: 2
-        x: 404
-        y: 28
-        width: 23
-        height: 21
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,10 +846,10 @@ TextureImporter:
       name: HEAD_hair_blonde_34
       rect:
         serializedVersion: 2
-        x: 468
-        y: 28
-        width: 23
-        height: 21
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,10 +867,10 @@ TextureImporter:
       name: HEAD_hair_blonde_35
       rect:
         serializedVersion: 2
-        x: 532
-        y: 28
-        width: 23
-        height: 21
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
