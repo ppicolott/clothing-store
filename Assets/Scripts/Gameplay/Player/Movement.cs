@@ -14,13 +14,13 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 3f;
 
-    private Movement singleInstance;
     public static Movement instance;
 
     private void LoadAnimationList()
     {
         animations = GetComponentsInChildren<AnimationManager>();
     }
+
     private void Awake()
     {
         instance = this;

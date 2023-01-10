@@ -12,12 +12,24 @@ public class Wearables : MonoBehaviour
 
     public static Wearables instance;
 
+    public Transform newBody, newHair, newHead, newTorso, newHands, newLegs, newFeet;
+
     private void Awake()
     {
-
-        // Check if there's no other instance
-
         instance = this;
+    }
+
+    public void PurchasedItems()
+    {
+        newBody = body.transform.GetChild(0);
+        newHair = hair.transform.GetChild(0);
+        newHead = head.transform.GetChild(0);
+        newTorso = torso.transform.GetChild(0);
+        newHands = hands.transform.GetChild(0);
+        newLegs = legs.transform.GetChild(0);
+        newFeet = feet.transform.GetChild(0);
+
+        Outfit.instance.SetOutfit(newBody, newHair, newHead, newTorso, newHands, newLegs, newFeet);
     }
 
     public void SetClothes(string _clothingSet, int _index)
