@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76c1960faf8d8544913217955840feb, type: 3}
   m_Name: SampleStore
   m_EditorClassIdentifier: 
+  hair:
+  - {fileID: 8785466311155031276, guid: 07d90858fa2027545a7c9eef10933fb8, type: 3}
   head:
   - {fileID: 7806115295018384712, guid: 8c2b60ffd2e74144e8e560fbc10d9149, type: 3}
+  - {fileID: 1102727508787182628, guid: 32b4b63e8517b9e4882078920412ef13, type: 3}
   - {fileID: 2357097520405758080, guid: 42388b90923726846b58600293dbd0ee, type: 3}
   - {fileID: 7272571721251948669, guid: cf5137db891a7434188e1328cbc67dfb, type: 3}
   - {fileID: 1102727508787182628, guid: af0ddaf71ba422c4b8aa43415e2107e5, type: 3}

@@ -3,6 +3,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Clothes", menuName = "Scriptable Objects/Clothes")]
 public class Clothes : ScriptableObject
 {
+    [Header("Hair")]
+    [Space(5)]
+    public GameObject[] hair;
+
+    [Space(10)]
     [Header("Head")]
     [Space(5)]
     public GameObject[] head;

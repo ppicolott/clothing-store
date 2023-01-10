@@ -13,15 +13,6 @@ public class TorsoShop : MonoBehaviour
 
     private void Awake()
     {
-        // Buttons
-        noneTorsoButton = noneTorso.GetComponent<Button>();
-        chainJacketButton = chainJacket.GetComponent<Button>();
-        chainMailButton = chainMail.GetComponent<Button>();
-        leatherShirtButton = leatherShirt.GetComponent<Button>();
-        leatherJacketButton = LeatherJacket.GetComponent<Button>();
-        plateMailButton = plateMail.GetComponent<Button>();
-        robeShirtButton = robeShirt.GetComponent<Button>();
-
         // ShopID
         noneTorsoID = noneTorso.GetComponent<ShopID>().shopID;
         chainJacketID = chainJacket.GetComponent<ShopID>().shopID;
@@ -30,6 +21,15 @@ public class TorsoShop : MonoBehaviour
         leatherJacketID = LeatherJacket.GetComponent<ShopID>().shopID;
         plateMailID = plateMail.GetComponent<ShopID>().shopID;
         robeShirtID = robeShirt.GetComponent<ShopID>().shopID;
+
+        // Buttons
+        noneTorsoButton = noneTorso.GetComponent<Button>();
+        chainJacketButton = chainJacket.GetComponent<Button>();
+        chainMailButton = chainMail.GetComponent<Button>();
+        leatherShirtButton = leatherShirt.GetComponent<Button>();
+        leatherJacketButton = LeatherJacket.GetComponent<Button>();
+        plateMailButton = plateMail.GetComponent<Button>();
+        robeShirtButton = robeShirt.GetComponent<Button>();
 
         // Buttons actions
         noneTorsoButton.onClick.AddListener(NoneTorsoSelected);
@@ -43,36 +43,36 @@ public class TorsoShop : MonoBehaviour
 
     private void NoneTorsoSelected()
     {
-        Wearables.instance.SetTorso(noneTorsoID);
+        Wearables.instance.SetClothes("torso", noneTorsoID);
     }
 
     private void ChainJacketSelected()
     {
-        Wearables.instance.SetTorso(chainJacketID);
+        Wearables.instance.SetClothes("torso", chainJacketID);
     }
 
     private void ChainMailSelected()
     {
-        Wearables.instance.SetTorso(chainMailID);
+        Wearables.instance.SetClothes("torso", chainMailID);
     }
 
     private void LeatherShirtSelected()
     {
-        Wearables.instance.SetTorso(leatherShirtID);
+        Wearables.instance.SetClothes("torso", leatherShirtID);
     }
 
     private void LeatherJacketSelected()
     {
-        Wearables.instance.SetTorso(leatherJacketID);
+        Wearables.instance.SetClothes("torso", leatherJacketID);
     }
 
     private void PlateMailSelected()
     {
-        Wearables.instance.SetTorso(plateMailID);
+        Wearables.instance.SetClothes("torso", plateMailID);
     }
 
     private void RobeShirtSelected()
     {
-        Wearables.instance.SetTorso(robeShirtID);
+        Wearables.instance.SetClothes("torso", robeShirtID);
     }
 }
