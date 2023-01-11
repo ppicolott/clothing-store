@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class Salesman : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField]
-    private GameObject shopScreen;
+    private GameObject dialogScreen;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -17,8 +17,7 @@ public class Salesman : MonoBehaviour, IPointerClickHandler
             || Keyboard.current.numpadEnterKey.isPressed
             || Keyboard.current.spaceKey.isPressed)
             {
-                // Dialog
-                shopScreen.SetActive(true);
+                dialogScreen.SetActive(true);
                 InputSystem.DisableDevice(Keyboard.current);
             }
         }
@@ -26,8 +25,7 @@ public class Salesman : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        // Dialog
-        shopScreen.SetActive(true);
+        dialogScreen.SetActive(true);
         InputSystem.DisableDevice(Keyboard.current);
     }
 }

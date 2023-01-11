@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class CurrencyManager : MonoBehaviour
 {
@@ -13,13 +15,16 @@ public class CurrencyManager : MonoBehaviour
     private Button purchaseButton;
 
     [SerializeField]
-    private TMP_Text funds;
+    private TMP_Text funds, totalAmountText;
 
     [SerializeField]
     private TMP_Text[] priceTags;
 
+    private List <string> tempCartText;
+
     public static CurrencyManager instance;
-    public int purchasePrice;
+    public List<int> purchasePrice;
+    public int totalAmount;
 
     private void Awake()
     {
@@ -36,15 +41,25 @@ public class CurrencyManager : MonoBehaviour
             int priceTag = tmp.GetComponentInParent<ShopID>().shopPrice;
             tmp.text = "$ " + priceTag * (1 - clothes.shopDiscount);
         }
+
+        totalAmountText.text = "Total = $ " + totalAmount.ToString();
     }
 
     private void Purchase()
     {
-        if (clothes.funds >= purchasePrice)
+        foreach (int item in purchasePrice)
         {
-            clothes.funds -= purchasePrice;
+            totalAmount += item;
+        }
+
+        if (clothes.funds >= totalAmount)
+        {
+            clothes.funds -= totalAmount;
             funds.text = "$ " + clothes.funds;
             Wearables.instance.PurchasedItems();
         }
+
+        purchasePrice.Clear();
+        totalAmount = 0;
     }
 }
